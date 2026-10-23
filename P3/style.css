@@ -1,4 +1,4 @@
-- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +20,7 @@ a {
     transition: all 0.2s ease;
 }
 
+/* Header */
 header {
     background-color: #7000ff;
     color: #ffffff;
@@ -110,8 +111,8 @@ nav {
 
 section {
     background-color: transparent;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     gap: 24px;
     max-width: 1200px;
     width: 100%;
@@ -201,6 +202,8 @@ article p.about-text {
 .biodata-table tr:last-child th {
     border-bottom: none;
 }
+
+/* Info Cards Layout */
 .info-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -362,7 +365,6 @@ aside {
 .skill-badge.fg { border-color: #8b5cf6; background-color: #f5f3ff; color: #6d28d9; }
 .skill-badge.vs { border-color: #84cc16; background-color: #ecfccb; color: #3f6212; }
 
-/* Hobi List */
 .hobi-list {
     list-style: none;
     margin: 0;
