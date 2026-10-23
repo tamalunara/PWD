@@ -20,7 +20,6 @@ a {
     transition: all 0.2s ease;
 }
 
-/* Header */
 header {
     background-color: #7000ff;
     color: #ffffff;
@@ -203,7 +202,6 @@ article p.about-text {
     border-bottom: none;
 }
 
-/* Info Cards Layout */
 .info-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
